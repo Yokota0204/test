@@ -1,0 +1,124 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+}
+
+.contents ol li {
+  margin-bottom: 30px;
+}
+
+.contents ol li article .comment-author {
+  display: flex;
+}
+
+.contents ol li article .comment-content {
+  padding: 10px 0;
+}
+
+.contents .container {
+  width: 80%;
+}
+
+.contents .container .header {
+  width: 100%;
+}
+
+.contents .container .header img {
+  width: 100%;
+}
+.contents .container .main-wrapper {
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.contents .container .main-wrapper .links {
+  display: flex;
+  justify-content: center;
+}
+.contents .container .main-wrapper .links li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.contents .container .main-wrapper form {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contents .container .main-wrapper form textarea {
+  width: 100%;
+}
+
+.contents .container .main-wrapper form .btn {
+  padding: 5px 15px;
+  margin: 20px 0 0 0;
+}
+
+.contents .main-wrapper ol {
+  padding-inline-start: 80px;
+  margin-bottom: 50px;
+}
+
+.contents .main-wrapper .footer {
+  padding: 0 30px;
+}
+
+.contents .main-wrapper .footer .add-content {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 60px;
+}
+
+.contents .main-wrapper .footer .add-content .item {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.contents .main-wrapper .footer .add-content .item img {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.contents .main-wrapper .footer .add-content .item .price, .title {
+  margin: 0;
+}
+
+.contents .main-wrapper .footer .banner {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.contents .right-bar {
+  height: 100%;
+  width: 20%;
+  background-color: #eee;
+  position: fixed;
+  right: 0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+.contents .right-bar form {
+  width: 100%;
+}
+
+.contents .right-bar form textarea {
+  width: 100%;
+}
+
+.contents .right-bar form .btn {
+  margin-bottom: 30px;
+}
+
+.contents .right-bar ol {
+  padding-inline-start: 20px;
+}
